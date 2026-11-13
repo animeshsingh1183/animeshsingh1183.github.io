@@ -1,0 +1,13 @@
+---
+title: "Publications"
+---
+
+## 2026
+
+**Yaksha-Prashna: Bridging the Semantic Gap in eBPF Bytecode Analysis and Diagnostics**  
+*Proceedings of the ACM on Networking (PACMNET), ACM CoNEXT 2026.*  
+[DOI](https://doi.org/10.1145/3856981)
+
+> A bytecode-oriented analysis and diagnostics approach for eBPF network programs.
+
+*Add the full author list, PDF, slides, and code links here after checking the final publication metadata.*

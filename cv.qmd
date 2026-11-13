@@ -1,0 +1,25 @@
+---
+title: "CV"
+---
+
+## Education
+
+**PhD student, Computer Science and Engineering**  
+Indian Institute of Technology Hyderabad  
+Research areas: eBPF, networked systems, and program analysis.
+
+## Experience
+
+**Software/Firmware Engineer Intern** — Marvell India
+
+**Teaching Assistant** — IIT Hyderabad
+
+## Publications
+
+See [Publications](publications.qmd).
+
+## Downloadable CV
+
+A PDF CV has not been added yet. Place a file at `assets/cv.pdf` and replace this paragraph with `[Download CV](assets/cv.pdf)`.
+
+*Please review and expand the entries above before publishing.*

@@ -1,0 +1,26 @@
+---
+title: "Research"
+---
+
+My research interests lie at the intersection of **networked systems**, **program analysis**, and **software correctness**. I am particularly interested in understanding the behavior of eBPF programs as they are deployed in production systems.
+
+## eBPF bytecode analysis
+
+Network programs may be distributed as compiled eBPF objects, and the original source code may not be available to an operator. Bytecode-based analysis can help explain which packet fields, helpers, and maps a program accesses, and how it handles different packets.
+
+My work on **Yaksha-Prashna** explores static analysis and diagnostics directly over eBPF bytecode.
+
+## Network function chain verification
+
+Real deployments frequently compose multiple network functions, such as firewalls, network address translators, load balancers, and monitoring programs. A chain can exhibit incorrect behavior even when each program appears correct in isolation.
+
+I am investigating how to reason about execution order, early termination, packet and metadata transformations, and persistent shared maps across programs.
+
+## Broader interests
+
+- eBPF and XDP networking
+- Static analysis and program verification
+- Programmable dataplanes and network functions
+- Systems tooling and performance
+
+For publications, see the [publications page](publications.qmd).

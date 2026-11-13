@@ -1,0 +1,11 @@
+---
+title: "Contact"
+---
+
+You can find my code and open-source projects on GitHub:
+
+**GitHub:** [github.com/animeshsingh1183](https://github.com/animeshsingh1183)
+
+I am a PhD student in the Department of Computer Science and Engineering at the Indian Institute of Technology Hyderabad.
+
+*Add your preferred public academic email address or professional profiles here when ready.*

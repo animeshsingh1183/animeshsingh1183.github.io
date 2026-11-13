@@ -1,0 +1,51 @@
+---
+title: ""
+page-layout: full
+toc: false
+---
+
+::: {.hero}
+<div class="eyebrow">ACADEMIC WEBSITE</div>
+
+# Animesh Singh
+
+<div class="hero-subtitle">PhD Researcher · Computer Science and Engineering</div>
+
+I am a PhD student in the **Department of Computer Science and Engineering at IIT Hyderabad**. My research focuses on **networked systems**, **eBPF program analysis**, and **correctness of network functions**.
+
+I build tools to analyze deployed network programs and help operators understand their behavior. I am particularly interested in bytecode analysis and verification of composed network functions.
+
+[Research](research.qmd){.btn .btn-primary} [Publications](publications.qmd){.btn .btn-outline-primary}
+:::
+
+## Research interests
+
+::: {.grid-tiles}
+::: {.research-tile}
+### eBPF bytecode analysis
+
+Static and path-sensitive analysis of eBPF programs without requiring the original source code.
+:::
+
+::: {.research-tile}
+### Network function verification
+
+Understanding correctness properties of routers, firewalls, load balancers, and their composition.
+:::
+
+::: {.research-tile}
+### Networked systems
+
+Building practical analysis methods for programmable and software-defined networks.
+:::
+:::
+
+## Selected publication
+
+**Yaksha-Prashna: Bridging the Semantic Gap in eBPF Bytecode Analysis and Diagnostics**  
+*ACM CoNEXT 2026*  
+[Publication details](publications.qmd) · [DOI](https://doi.org/10.1145/3856981)
+
+## Notes and writing
+
+I use the [blog](blog.qmd) to share technical notes about eBPF, program analysis, and systems research.

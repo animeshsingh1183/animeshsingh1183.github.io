@@ -1,0 +1,12 @@
+---
+title: "Hello, World"
+description: "A draft introduction to my technical blog."
+author: "Animesh Singh"
+date: "2026-11-13"
+categories: [blog, systems]
+draft: true
+---
+
+Welcome to my technical blog. I plan to write about eBPF, network functions, program analysis, and lessons from systems research.
+
+This is a **draft** post and is not intended to appear on the published website. Edit this file and change `draft: true` to `draft: false` when you are ready to publish it.
