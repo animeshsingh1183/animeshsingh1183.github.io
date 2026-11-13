@@ -1,0 +1,17 @@
+---
+title: "Publications"
+description: "Research publications"
+---
+
+## 2026
+
+**Yaksha-Prashna: Bridging the Semantic Gap in eBPF Bytecode Analysis and Diagnostics**  
+*ACM CoNEXT 2026*
+
+A scalable approach to analyzing eBPF network function bytecode and deriving meaningful network behavior for validation and diagnostics.
+
+[Department announcement](https://cse.iith.ac.in/news/2026-09-11-Yaksha.html)
+
+<!-- Add a paper PDF, DOI, slides, and code link after checking the final public URLs. -->
+
+<!-- Add future publications here. -->

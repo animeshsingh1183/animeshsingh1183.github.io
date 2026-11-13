@@ -1,0 +1,16 @@
+---
+title: "Blog"
+description: "Technical writing, research notes, and things I learn"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  feed: true
+---
+
+I write about systems, networking, eBPF, program analysis, and research papers. Some posts will be tutorials; others will be notes about things I am learning.
+
+<!-- Drafts will be visible locally in preview, but are not published by Quarto. -->

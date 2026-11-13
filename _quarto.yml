@@ -1,0 +1,41 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Animesh Singh"
+  description: "Research in eBPF, networked systems, and program analysis."
+  site-url: "https://alwaysanimesh.github.io"
+  navbar:
+    background: "#ffffff"
+    foreground: "#26364a"
+    pinned: true
+    search: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: blog.qmd
+        text: Blog
+      - href: cv.qmd
+        text: CV
+      - href: contact.qmd
+        text: Contact
+  page-footer:
+    border: true
+    left: "© 2026 Animesh Singh"
+    right: "Built with [Quarto](https://quarto.org/) · Hosted on [GitHub Pages](https://pages.github.com/)"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    link-external-newwindow: true
+    smooth-scroll: true
+
+execute:
+  freeze: auto

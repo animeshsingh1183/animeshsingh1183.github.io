@@ -1,0 +1,32 @@
+---
+title: "Why I am starting a technical blog"
+description: "A first-post template to customize before publishing"
+author: "Animesh Singh"
+date: "2026-11-13"
+categories: [Personal, Systems]
+draft: true
+---
+
+> **Unpublished template:** This post is a draft and is not intended to be a public statement until you edit it.
+
+## Why write?
+
+Replace this paragraph with your own reasons for starting a blog.
+
+## What I hope to write about
+
+- An eBPF concept that I learned recently
+- Notes from reading a systems paper
+- A technical problem and how I approached it
+
+## Next steps
+
+When you are ready to publish, remove `draft: true` from the front matter and update the date.
+
+You can also include code:
+
+```c
+int answer = 42;
+```
+
+And equations such as $T(n) = O(n)$.
