@@ -1,0 +1,6 @@
+# Defaults shared by blog posts.
+format:
+  html:
+    toc: true
+    code-copy: true
+freeze: auto

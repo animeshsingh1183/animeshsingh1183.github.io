@@ -1,0 +1,24 @@
+---
+title: "CV"
+---
+
+I am a PhD student in the Department of Computer Science and Engineering at **IIT Hyderabad**.
+
+## Research
+
+- eBPF and network function verification
+- Static and dataflow analysis
+- Networked systems
+
+## Experience
+
+- **Software/Firmware Engineer Intern**, Marvell India
+- **Teaching Assistant**, IIT Hyderabad
+
+## Curriculum vitae
+
+Add a PDF of your CV to `assets/cv.pdf`, then replace this sentence with:
+
+`[Download my CV](assets/cv.pdf)`
+
+<!-- Review all experience descriptions and add dates before publishing. -->

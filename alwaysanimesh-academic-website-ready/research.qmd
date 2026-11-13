@@ -1,0 +1,27 @@
+---
+title: "Research"
+description: "Research interests and ongoing directions"
+---
+
+My research interests lie in **networked systems**, **eBPF**, and **program analysis**, particularly the analysis and verification of packet-processing programs.
+
+## eBPF bytecode analysis
+
+Network functions can be distributed as compiled eBPF programs. Understanding these programs without source code requires reconstructing meaningful network behavior from low-level instructions.
+
+**Selected work:** [Yaksha-Prashna](publications.qmd), a system for analyzing and diagnosing eBPF network functions from bytecode.
+
+## Network function chain verification
+
+In deployed systems, multiple network functions may execute together. Individually correct functions can interact in unexpected ways through execution order, packet modifications, metadata, or shared maps.
+
+I am exploring techniques to reason about these interactions across composed eBPF programs.
+
+## Research interests
+
+- eBPF and programmable packet processing
+- Static analysis, dataflow analysis, and verification
+- Network functions and service function chains
+- Systems for debugging and diagnostics
+
+<!-- Update the descriptions as your research directions evolve. -->
