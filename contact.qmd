@@ -1,9 +1,0 @@
----
-title: "Contact"
----
-
-I welcome discussions about eBPF, networking, systems research, and program analysis.
-
-- **GitHub:** [alwaysanimesh](https://github.com/alwaysanimesh)
-
-You can add a public email address, Google Scholar page, and LinkedIn profile after reviewing what contact information you want to share.
