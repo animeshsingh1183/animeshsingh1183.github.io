@@ -2,50 +2,107 @@
 title: ""
 page-layout: full
 toc: false
+description: "Animesh Singh is a PhD student at IIT Hyderabad, working on eBPF bytecode analysis, networked systems, and network function verification."
 ---
 
-::: {.hero}
-<div class="eyebrow">ACADEMIC WEBSITE</div>
+::: {.home-hero}
+::: {.home-hero__content}
+<div class="home-eyebrow"><span class="home-eyebrow__dot"></span> RESEARCHER · SYSTEMS & NETWORKING</div>
 
 # Animesh Singh
 
-<div class="hero-subtitle">PhD Researcher · Computer Science and Engineering</div>
+<div class="home-role">PhD Student in Computer Science and Engineering</div>
+<div class="home-institution">Indian Institute of Technology Hyderabad</div>
 
-I am a PhD student in the **Department of Computer Science and Engineering at IIT Hyderabad**. My research focuses on **networked systems**, **eBPF program analysis**, and **correctness of network functions**.
+I study the **behavior and correctness of network programs**, with a focus on **eBPF bytecode analysis** and **network function verification**.
 
-I build tools to analyze deployed network programs and help operators understand their behavior. I am particularly interested in bytecode analysis and verification of composed network functions.
+My goal is to develop practical tools that help explain what deployed programs do and identify correctness issues when multiple network functions interact.
 
-[Research](research.qmd){.btn .btn-primary} [Publications](publications.qmd){.btn .btn-outline-primary}
+::: {.home-hero__actions}
+[Explore research](research.qmd){.btn .btn-primary} [Publications](publications.qmd){.btn .btn-outline-primary} [GitHub](https://github.com/animeshsingh1183){.home-text-link}
+:::
 :::
 
-## Research interests
+::: {.home-hero__visual}
+<div class="home-photo-frame">
+  <img src="assets/profilePic-home.jpeg" alt="Animesh Singh" class="homepage-portrait-image" width="280" height="350" loading="eager" decoding="async">
+</div>
+<div class="home-photo-caption">Research in networked systems <span aria-hidden="true">·</span> IIT Hyderabad</div>
+:::
+:::
 
-::: {.grid-tiles}
-::: {.research-tile}
+::: {.home-section .home-about}
+<div class="home-section__eyebrow">ABOUT ME</div>
+
+## Making network programs easier to understand and verify
+
+I am a PhD student in the Department of Computer Science and Engineering at **IIT Hyderabad**. My research lies at the intersection of **networked systems**, **program analysis**, and **software correctness**.
+
+I work on analyzing compiled eBPF programs without requiring source code. I am also investigating how to reason about the behavior of network functions when they are composed into a chain.
+:::
+
+::: {.home-section}
+::: {.home-section__head}
+::: {.home-section__head-title}
+<div class="home-section__eyebrow">RESEARCH AREAS</div>
+
+## What I work on
+:::
+
+[All research →](research.qmd){.home-section__more}
+:::
+
+::: {.home-research-grid}
+::: {.home-research-card}
+<div class="home-card__number">01 / BYTECODE</div>
+
 ### eBPF bytecode analysis
 
-Static and path-sensitive analysis of eBPF programs without requiring the original source code.
+Analyzing compiled eBPF programs to understand packet accesses, helper calls, memory effects, and program behavior.
 :::
 
-::: {.research-tile}
+::: {.home-research-card}
+<div class="home-card__number">02 / CORRECTNESS</div>
+
 ### Network function verification
 
-Understanding correctness properties of routers, firewalls, load balancers, and their composition.
+Checking properties of individual network functions and identifying correctness issues that arise from their composition.
 :::
 
-::: {.research-tile}
+::: {.home-research-card}
+<div class="home-card__number">03 / SYSTEMS</div>
+
 ### Networked systems
 
-Building practical analysis methods for programmable and software-defined networks.
+Building practical program-analysis methods for programmable network dataplanes and deployed network functions.
+:::
+:::
+:::
+
+::: {.home-section}
+<div class="home-section__eyebrow">SELECTED PUBLICATION</div>
+
+## Featured work
+
+::: {.home-featured-paper}
+<div class="home-paper__meta">ACM CoNEXT 2026 <span aria-hidden="true">·</span> eBPF / Program Analysis</div>
+
+### Yaksha-Prashna: Bridging the Semantic Gap in eBPF Bytecode Analysis and Diagnostics
+
+A static-analysis and diagnostics approach for understanding the behavior of compiled eBPF network programs.
+
+[Publication details](publications.qmd){.home-paper__link} [DOI ↗](https://doi.org/10.1145/3856981){.home-paper__link}
 :::
 :::
 
-## Selected publication
+::: {.home-writing}
+::: {.home-writing__text}
+<div class="home-section__eyebrow">TECHNICAL WRITING</div>
 
-**Yaksha-Prashna: Bridging the Semantic Gap in eBPF Bytecode Analysis and Diagnostics**  
-*ACM CoNEXT 2026*  
-[Publication details](publications.qmd) · [DOI](https://doi.org/10.1145/3856981)
+## Notes from the research process
 
-## Notes and writing
+I share technical notes on eBPF, networked systems, and program analysis, including ideas and lessons from reading and building systems.
+:::
 
-I use the [blog](blog.qmd) to share technical notes about eBPF, program analysis, and systems research.
+[Read the blog →](blog.qmd){.btn .btn-outline-primary}
+:::

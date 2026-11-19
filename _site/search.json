@@ -1,0 +1,149 @@
+[
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Technical notes on eBPF, program analysis, networked systems, and research ideas. Draft posts are not published by default.\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Yaksha-Prashna: Bridging the Semantic Gap in eBPF Bytecode Analysis and Diagnostics\nProceedings of the ACM on Networking (PACMNET), ACM CoNEXT 2026.\nDOI\n\nA bytecode-oriented analysis and diagnostics approach for eBPF network programs.\n\nAdd the full author list, PDF, slides, and code links here after checking the final publication metadata."
+  },
+  {
+    "objectID": "publications.html#section",
+    "href": "publications.html#section",
+    "title": "Publications",
+    "section": "",
+    "text": "Yaksha-Prashna: Bridging the Semantic Gap in eBPF Bytecode Analysis and Diagnostics\nProceedings of the ACM on Networking (PACMNET), ACM CoNEXT 2026.\nDOI\n\nA bytecode-oriented analysis and diagnostics approach for eBPF network programs.\n\nAdd the full author list, PDF, slides, and code links here after checking the final publication metadata."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research interests lie at the intersection of networked systems, program analysis, and software correctness. I am particularly interested in understanding the behavior of eBPF programs as they are deployed in production systems."
+  },
+  {
+    "objectID": "research.html#ebpf-bytecode-analysis",
+    "href": "research.html#ebpf-bytecode-analysis",
+    "title": "Research",
+    "section": "eBPF bytecode analysis",
+    "text": "eBPF bytecode analysis\nNetwork programs may be distributed as compiled eBPF objects, and the original source code may not be available to an operator. Bytecode-based analysis can help explain which packet fields, helpers, and maps a program accesses, and how it handles different packets.\nMy work on Yaksha-Prashna explores static analysis and diagnostics directly over eBPF bytecode."
+  },
+  {
+    "objectID": "research.html#network-function-chain-verification",
+    "href": "research.html#network-function-chain-verification",
+    "title": "Research",
+    "section": "Network function chain verification",
+    "text": "Network function chain verification\nReal deployments frequently compose multiple network functions, such as firewalls, network address translators, load balancers, and monitoring programs. A chain can exhibit incorrect behavior even when each program appears correct in isolation.\nI am investigating how to reason about execution order, early termination, packet and metadata transformations, and persistent shared maps across programs."
+  },
+  {
+    "objectID": "research.html#broader-interests",
+    "href": "research.html#broader-interests",
+    "title": "Research",
+    "section": "Broader interests",
+    "text": "Broader interests\n\neBPF and XDP networking\nStatic analysis and program verification\nProgrammable dataplanes and network functions\nSystems tooling and performance\n\nFor publications, see the publications page."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "PhD student, Computer Science and Engineering\nIndian Institute of Technology Hyderabad\nResearch areas: eBPF, networked systems, and program analysis."
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "CV",
+    "section": "",
+    "text": "PhD student, Computer Science and Engineering\nIndian Institute of Technology Hyderabad\nResearch areas: eBPF, networked systems, and program analysis."
+  },
+  {
+    "objectID": "cv.html#experience",
+    "href": "cv.html#experience",
+    "title": "CV",
+    "section": "Experience",
+    "text": "Experience\nSoftware/Firmware Engineer Intern — Marvell India\nTeaching Assistant — IIT Hyderabad"
+  },
+  {
+    "objectID": "cv.html#publications",
+    "href": "cv.html#publications",
+    "title": "CV",
+    "section": "Publications",
+    "text": "Publications\nSee Publications."
+  },
+  {
+    "objectID": "cv.html#downloadable-cv",
+    "href": "cv.html#downloadable-cv",
+    "title": "CV",
+    "section": "Downloadable CV",
+    "text": "Downloadable CV\nA PDF CV has not been added yet. Place a file at assets/cv.pdf and replace this paragraph with [Download CV](assets/cv.pdf).\nPlease review and expand the entries above before publishing."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "You can find my code and open-source projects on GitHub:\nGitHub: github.com/animeshsingh1183\nI am a PhD student in the Department of Computer Science and Engineering at the Indian Institute of Technology Hyderabad.\nAdd your preferred public academic email address or professional profiles here when ready."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Animesh Singh",
+    "section": "",
+    "text": "RESEARCHER · SYSTEMS & NETWORKING\n\n\n\n\nPhD Student in Computer Science and Engineering\n\n\nIndian Institute of Technology Hyderabad\n\nI study the behavior and correctness of network programs, with a focus on eBPF bytecode analysis and network function verification.\nMy goal is to develop practical tools that help explain what deployed programs do and identify correctness issues when multiple network functions interact.\n\nExplore research Publications GitHub\n\n\n\n\n\n\n\n\nResearch in networked systems · IIT Hyderabad"
+  },
+  {
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "Animesh Singh",
+    "section": "Research interests",
+    "text": "Research interests\n\n\neBPF bytecode analysis\nStatic and path-sensitive analysis of eBPF programs without requiring the original source code.\n\n\nNetwork function verification\nUnderstanding correctness properties of routers, firewalls, load balancers, and their composition.\n\n\nNetworked systems\nBuilding practical analysis methods for programmable and software-defined networks."
+  },
+  {
+    "objectID": "index.html#selected-publication",
+    "href": "index.html#selected-publication",
+    "title": "Animesh Singh",
+    "section": "Selected publication",
+    "text": "Selected publication\nYaksha-Prashna: Bridging the Semantic Gap in eBPF Bytecode Analysis and Diagnostics\nACM CoNEXT 2026\nPublication details · DOI"
+  },
+  {
+    "objectID": "index.html#notes-and-writing",
+    "href": "index.html#notes-and-writing",
+    "title": "Animesh Singh",
+    "section": "Notes and writing",
+    "text": "Notes and writing\nI use the blog to share technical notes about eBPF, program analysis, and systems research."
+  },
+  {
+    "objectID": "index.html#making-network-programs-easier-to-understand-and-verify",
+    "href": "index.html#making-network-programs-easier-to-understand-and-verify",
+    "title": "Animesh Singh",
+    "section": "Making network programs easier to understand and verify",
+    "text": "Making network programs easier to understand and verify\nI am a PhD student in the Department of Computer Science and Engineering at IIT Hyderabad. My research lies at the intersection of networked systems, program analysis, and software correctness.\nI work on analyzing compiled eBPF programs without requiring source code. I am also investigating how to reason about the behavior of network functions when they are composed into a chain."
+  },
+  {
+    "objectID": "index.html#what-i-work-on",
+    "href": "index.html#what-i-work-on",
+    "title": "Animesh Singh",
+    "section": "What I work on",
+    "text": "What I work on"
+  },
+  {
+    "objectID": "index.html#featured-work",
+    "href": "index.html#featured-work",
+    "title": "Animesh Singh",
+    "section": "Featured work",
+    "text": "Featured work\n\n\nACM CoNEXT 2026 · eBPF / Program Analysis\n\n\nYaksha-Prashna: Bridging the Semantic Gap in eBPF Bytecode Analysis and Diagnostics\nA static-analysis and diagnostics approach for understanding the behavior of compiled eBPF network programs.\nPublication details DOI ↗"
+  },
+  {
+    "objectID": "index.html#notes-from-the-research-process",
+    "href": "index.html#notes-from-the-research-process",
+    "title": "Animesh Singh",
+    "section": "Notes from the research process",
+    "text": "Notes from the research process\nI share technical notes on eBPF, networked systems, and program analysis, including ideas and lessons from reading and building systems."
+  }
+]
